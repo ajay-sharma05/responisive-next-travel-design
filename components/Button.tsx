@@ -3,7 +3,7 @@ import Image from "next/image"
 type ButtonProps = {
     type: "button" | "submit";
     title: string;
-    icon? : string;
+    icon?: string;
     variant: "btn_dark_green" | "btn_green" | "btn_white_text"
 }
 
