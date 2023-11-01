@@ -5,7 +5,7 @@ import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "@/constants";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter flex-col mb-24">
+    <footer className="flexCenter flex-col mb-24 gap-4">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
@@ -52,10 +52,11 @@ const Footer = () => {
             </FooterColumn>
           </div>
         </div>
+        <div className="border bg-gray-20"></div>
+      <p className="regular-14 text-center w-full text-gray-30">Hilink 2023 | All rights reserved</p>
+      
       </div>
       
-      <div className="border bg-gray-20"></div>
-      <p className="regular-14 text-center w-full text-gray-30">Hilink 2023 | All rights reserved</p>
       
     </footer>
   );
